@@ -5,7 +5,7 @@
 ### Polinizadores
 | Inseto | Habilidades | Curiosidade |
 |--------|-------------|-------------|
-| **Abelha** | Ferrão, Polinização | Polinizam 70% dos alimentos |
+| **Abelha** | Ferrão, Polinização | Polinizam 71% dos alimentos |
 | **Borboleta** | Pólen, Voo Elegante | 20.000 espécies no Brasil |
 | **Beija-flor** | Bico Afiado, Agilidade | Únicas aves que polinizam |
 
