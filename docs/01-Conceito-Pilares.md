@@ -9,7 +9,7 @@
 3. **Mensagem Empática** - Respeito por todas as criaturas, mesmo as "assustadoras"
 
 ## Progressão da Demo
-1. **Tutorial** → Capturar primeira formiga
+1. **Tutorial** → Capturar primeira formiga e andar pra frente
 2. **Missões** → Coletar insetos para pesquisa
 3. **Conflito** → Enfrentar os Negligentes
 4. **Clímax** → Resgatar aranha-caranguejeira
