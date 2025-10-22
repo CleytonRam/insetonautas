@@ -3,4 +3,8 @@
 [ext_resource type="Script" uid="uid://irp83gdirm41" path="res://scripts/camera_follow.gd" id="1_q5git"]
 
 [node name="Camera2d" type="Camera2D"]
+process_callback = 0
+limit_smoothed = true
+position_smoothing_enabled = true
+position_smoothing_speed = 4.735
 script = ExtResource("1_q5git")
