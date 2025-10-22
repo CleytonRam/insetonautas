@@ -1,0 +1,53 @@
+# PASTAS ESPECÍFICAS DO GODOT :cite[4]:cite[6]
+# =============================================
+# Diretório de cache e arquivos gerados pelo editor.
+# Deve ser ignorado, mas NOTE a exceção para arquivos .uid abaixo.
+.godot/
+
+# Diretório de arquivos importados e processados.
+.import/
+
+# Arquivos de tradução binária gerados a partir de CSVs :cite[4].
+*.translation
+
+# ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS :cite[6]
+# =============================================
+# Contém configurações de exportação, pode incluir credenciais.
+export.cfg
+export_credentials.cfg
+
+
+# ARQUIVOS QUE NÃO DEVEM SER IGNORADOS (CRÍTICO) :cite[10]
+# =============================================
+# EM GODOT 4.4, NÃO IGNORE arquivos .uid!
+# Eles são essenciais para referências estáveis entre recursos.
+!*.uid
+
+
+# ARQUIVOS DO MONO (.NET) :cite[6]
+# =============================================
+.mono/
+data_*/
+mono_crash.*.json
+
+
+# ARQUIVOS TEMPORÁRIOS/DE SISTEMA OPERACIONAL
+# =============================================
+# macOS :cite[6]
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows :cite[6]
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux :cite[6]
+*~
+.nfs*
