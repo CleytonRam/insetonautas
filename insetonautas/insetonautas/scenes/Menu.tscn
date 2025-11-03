@@ -1,0 +1,80 @@
+[gd_scene load_steps=8 format=3 uid="uid://joxadiwnn4ow"]
+
+[ext_resource type="Script" uid="uid://bwiq8rb5e7xqs" path="res://menu/menu.gd" id="1_jmdev"]
+[ext_resource type="Texture2D" uid="uid://bxly41carepsq" path="res://menu/menuinsetonauta.png" id="2_b6cxs"]
+[ext_resource type="FontFile" uid="uid://cm16166eq574l" path="res://menu/Spacerunner-Green.otf" id="3_aaywf"]
+[ext_resource type="FontFile" uid="uid://dstlo35hq7q7u" path="res://menu/BoldPixels.otf" id="4_1abgu"]
+[ext_resource type="Texture2D" uid="uid://dsxec5ankq532" path="res://menu/UI2.png" id="5_yt8fu"]
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_0bmmx"]
+frame_0/texture = ExtResource("2_b6cxs")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qoxbi"]
+texture = ExtResource("5_yt8fu")
+texture_margin_top = 1.0
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 512.0
+offset_bottom = 328.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jmdev")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1385.0
+offset_bottom = 721.0
+texture = SubResource("AnimatedTexture_0bmmx")
+
+[node name="Title" type="Label" parent="."]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 0
+offset_left = 165.0
+offset_top = -15.0
+offset_right = 1027.0
+offset_bottom = 189.0
+scale = Vector2(1.1, 1.1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_aaywf")
+theme_override_font_sizes/font_size = 100
+text = "INSETONAUTAS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 507.0
+offset_top = 108.0
+offset_right = 623.0
+offset_bottom = 232.0
+scale = Vector2(2.5, 2.5)
+theme_override_constants/separation = 7
+alignment = 1
+
+[node name="ButtonPlay" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_1abgu")
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxTexture_qoxbi")
+text = "JOGAR"
+
+[node name="ButtonSettings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_1abgu")
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxTexture_qoxbi")
+text = "OPÇÕES"
+
+[node name="ButtonExit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_1abgu")
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxTexture_qoxbi")
+text = "SAIR"
+
+[connection signal="pressed" from="VBoxContainer/ButtonPlay" to="." method="_on_button_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonExit" to="." method="_on_button_exit_pressed"]
