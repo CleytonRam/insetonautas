@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=4 format=3 uid="uid://b53v5jqh4ks4v"]
+
+[ext_resource type="Script" uid="uid://beucbb32dmr0j" path="res://scenes/enemy/InsectData.gd" id="1_eoryp"]
+[ext_resource type="Script" uid="uid://cevq48ukv0hkm" path="res://scenes/enemy/EnemyData.gd" id="2_pp325"]
+[ext_resource type="Resource" uid="uid://cdttogsdst7pt" path="res://scenes/Insects/abelha_insect.tres" id="2_yi8wj"]
+
+[resource]
+script = ExtResource("2_pp325")
+enemy_name = "Treinador Inicial"
+insects = Array[ExtResource("1_eoryp")]([ExtResource("2_yi8wj")])
+metadata/_custom_type_script = "uid://cevq48ukv0hkm"

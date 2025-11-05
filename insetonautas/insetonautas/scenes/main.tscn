@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://xb4puenohosx"]
+[gd_scene load_steps=16 format=4 uid="uid://xb4puenohosx"]
 
 [ext_resource type="Script" uid="uid://cfai1fvovfub0" path="res://scenes/main.gd" id="1_lnot1"]
 [ext_resource type="PackedScene" uid="uid://c4373iviuy8gy" path="res://helpers/camera.tscn" id="2_6kmhg"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://p445hgyh7lcy" path="res://helpers/actionable.tscn" id="7_8rrr8"]
 [ext_resource type="Resource" uid="uid://c4c0ivnoshser" path="res://scenes/main.dialogue" id="8_8uf4i"]
 [ext_resource type="PackedScene" uid="uid://byqyiy823ab7s" path="res://world/apple_tree.tscn" id="9_ybtte"]
+[ext_resource type="PackedScene" uid="uid://q2g72mrbg3ik" path="res://scenes/enemy/enemy.tscn" id="10_choun"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4af00"]
 texture = ExtResource("3_37mq2")
@@ -84,3 +85,7 @@ dialogue_start = "pick_apple"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AppleTree/Actionable"]
 position = Vector2(0, -7)
 shape = SubResource("CircleShape2D_fgysu")
+
+[node name="Enemy" parent="." instance=ExtResource("10_choun")]
+position = Vector2(167, 157)
+collision_mask = 2

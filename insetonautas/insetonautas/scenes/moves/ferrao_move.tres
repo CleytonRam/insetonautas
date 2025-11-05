@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Move" load_steps=2 format=3 uid="uid://bxspvns885krv"]
+
+[ext_resource type="Script" uid="uid://bcb4ojd86ihhy" path="res://battle/Move.gd" id="1_38bf7"]
+
+[resource]
+script = ExtResource("1_38bf7")
+name = "Ferrão"
+type = 1
+power = 40
+accuracy = 95
+max_pp = 15
+category = 0
+priority = 0
+metadata/_custom_type_script = "uid://bcb4ojd86ihhy"

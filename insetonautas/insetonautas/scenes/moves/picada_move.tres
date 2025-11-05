@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Move" load_steps=2 format=3 uid="uid://bye1f32qobo41"]
+
+[ext_resource type="Script" uid="uid://bcb4ojd86ihhy" path="res://battle/Move.gd" id="1_h1ey4"]
+
+[resource]
+script = ExtResource("1_h1ey4")
+name = "Picada"
+type = 0
+power = 35
+accuracy = 100
+max_pp = 20
+category = 1
+priority = 0
+metadata/_custom_type_script = "uid://bcb4ojd86ihhy"

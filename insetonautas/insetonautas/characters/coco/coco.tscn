@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://b6eb0jlotsoo8" path="res://characters/coco/coco.gd" id="1_7qnk7"]
 [ext_resource type="Texture2D" uid="uid://ilg4bqsrvspv" path="res://characters/coco/insetonauta-export.png" id="2_jjnws"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2ux02"]
-radius = 5.0
-height = 16.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jjnws"]
+radius = 8.0
+height = 24.0
 
 [sub_resource type="Animation" id="Animation_v3qo1"]
 length = 0.001
@@ -376,10 +376,8 @@ hframes = 21
 frame = 6
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(0, -2)
-rotation = 1.5708
-shape = SubResource("CapsuleShape2D_2ux02")
+position = Vector2(0, -8)
+shape = SubResource("CapsuleShape2D_jjnws")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

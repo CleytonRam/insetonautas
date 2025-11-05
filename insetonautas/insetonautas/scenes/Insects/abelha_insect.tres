@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="InsectData" load_steps=5 format=3 uid="uid://cdttogsdst7pt"]
+
+[ext_resource type="Script" uid="uid://bcb4ojd86ihhy" path="res://battle/Move.gd" id="1_4enun"]
+[ext_resource type="Script" uid="uid://beucbb32dmr0j" path="res://scenes/enemy/InsectData.gd" id="2_3dyq6"]
+[ext_resource type="Resource" uid="uid://bxspvns885krv" path="res://scenes/moves/ferrao_move.tres" id="2_js6nu"]
+[ext_resource type="Resource" uid="uid://bye1f32qobo41" path="res://scenes/moves/picada_move.tres" id="3_nad6p"]
+
+[resource]
+script = ExtResource("2_3dyq6")
+name = "Abelha"
+type = 0
+level = 5
+base_hp = 20
+base_attack = 18
+base_defense = 12
+base_special_attack = 15
+base_special_defense = 12
+base_speed = 25
+moves = Array[ExtResource("1_4enun")]([ExtResource("2_js6nu"), ExtResource("3_nad6p")])
+metadata/_custom_type_script = "uid://beucbb32dmr0j"
