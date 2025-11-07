@@ -3,51 +3,59 @@
 ## Estrutura da Demo
 
 ### Áreas Jogáveis
-1. **Laboratório do Dr. Entomos**
-   - Sala principal com computadores
-   - Área de pesquisa com microscópios
+1. **Casa do Alex**
+   - Quarto com computador e livros
+   - Área de preparação para expedições
+   - Pais que dão dicas e incentivo
+
+2. **Escola do Dr. Entomos**
+   - Sala de aula com quadros educativos
+   - Laboratório com microscópios e amostras
+   - Biblioteca com livros sobre insetos
    - Viveiro de insetos inofensivos
 
-2. **Parque Municipal**
-   - Jardim de flores (polinizadores)
-   - Área de piquenique (formigas, joaninhas)
-   - Bosque (aranhas, milipéses)
-   - Lago (libélulas)
-
-3. **Esconderijo dos Negligentes**
-   - Armazém abandonado
-   - Gaiolas com insetos capturados
-   - Sala do líder "Cascudo"
+3. **Parque Municipal**
+   - Jardim de Flores (Abelhas, Borboletas, Beija-flor)
+   - Área de Piquenique (Formigas, Joaninhas)
+   - Bosque (Aranhas, Milipéses)
+   - Lago (Libélulas)
+   - Estufa (Insetos raros)
 
 ## Progressão da Narrativa
 
 ### Missão 1: "Iniciação Científica"
-- Tutorial de movimento e interação
-- Conversa com Dr. Entomos
-- Capturar primeira Formiga
-- Aprender sistema de batalha básico
+- Acordar em casa e se preparar
+- Primeira visita à escola
+- Conhecer Dr. Entomos
+- Missão: encontrar e registrar 1 formiga
+- Aprender sistema de exploração e coleta
 
-### Missão 2: "Equilíbrio Natural"
-- Capturar 2 Joaninhas
-- Explicação sobre controle biológico
-- Introdução aos tipos ecológicos
+### Missão 2: "Polinizadores"
+- Dr. Entomos explica importância da polinização
+- Coletar Abelha e Borboleta no jardim
+- Diálogos sobre dependência de alimentos
+- Quiz sobre polinização
 
-### Missão 3: "Ameaça Externa"
-- Encontro com Barata dos Negligentes
-- Aprender sobre insetos perigosos
-- Primeira batalha contra Negligente
+### Missão 3: "Equilíbrio Natural"  
+- Introdução ao controle biológico
+- Encontrar Joaninha e Aranha
+- Aprender sobre predadores benéficos
+- Discussão sobre medo de aracnídeos
 
-### Missão 4: "Operação Resgate"
-- Encontrar esconderijo dos Negligentes
-- Libertar Aranha-Caranguejeira cativa
-- Batalha final contra Líder "Cascudo"
+### Missão 4: "Prova Final"
+- Revisão de todos os conceitos aprendidos
+- Quiz abrangente com perguntas contextuais
+- Certificado de "Jovem Entomologista"
+- Cerimônia de formatura simbólica
 
 ## Sistema de Diálogos
-- **Árvore Linear:** Foco em clareza para público jovem
-- **Dicas Contextuais:** Explicações sobre mecânicas
-- **Vozes Distintas:** Cada NPC com personalidade única
+- **Árvore Conversacional** - Opções que afetam relacionamentos
+- **Tópicos Contextuais** - NPCs comentam sobre descobertas recentes
+- **Dicas Educativas** - Informações integradas naturalmente
+- **Progressão Relacional** - Diálogos mudam conforme conhecimento cresce
 
 ## Eventos Especiais
-- **Encontro com Beija-flor:** Raro, apenas em áreas floridas
-- **Milipéses Noturnos:** Aparecem após completar missão 2
-- **Evolução Borboleta:** Evento visual ao atingir nível 10
+- **Dias Chuvosos** - Alguns insetos aparecem, outros se escondem
+- **Festivais Escolares** - Eventos especiais com mini-jogos educativos
+- **Descobertas Raras** - Insetos especiais aparecem ocasionalmente
+- **Visitas de Especialistas** - NPCs convidados trazem novo conhecimento

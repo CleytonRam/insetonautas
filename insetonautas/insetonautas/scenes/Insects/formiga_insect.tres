@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="InsectData" load_steps=5 format=3 uid="uid://s6u0femd1jeh"]
+
+[ext_resource type="Script" uid="uid://bcb4ojd86ihhy" path="res://battle/BattleMove.gd" id="1_b7d26"]
+[ext_resource type="Resource" uid="uid://bye1f32qobo41" path="res://scenes/moves/picada_move.tres" id="2_7gtw4"]
+[ext_resource type="Script" uid="uid://beucbb32dmr0j" path="res://scenes/enemy/InsectData.gd" id="2_kpt00"]
+[ext_resource type="Resource" uid="uid://bxspvns885krv" path="res://scenes/moves/ferrao_move.tres" id="3_dy3w1"]
+
+[resource]
+script = ExtResource("2_kpt00")
+name = "Formiga"
+type = 3
+level = 5
+base_hp = 25
+base_attack = 23
+base_defense = 23
+base_special_attack = 23
+base_special_defense = 23
+base_speed = 23
+moves = Array[ExtResource("1_b7d26")]([ExtResource("2_7gtw4"), ExtResource("3_dy3w1")])
+metadata/_custom_type_script = "uid://beucbb32dmr0j"

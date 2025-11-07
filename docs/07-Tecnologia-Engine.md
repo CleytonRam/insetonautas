@@ -3,71 +3,77 @@
 ## Configuração Godot 4.4
 
 ### Versão Específica
-- **Godot 4.4.2** (última versão estável)
-- **GDScript 2.0** (com tipagem opcional)
-- **Renderização:** Compatibility (maior compatibilidade)
+- **Godot 4.4.2** (estável)
+- **GDScript 2.0** com tipagem para melhor manutenção
+- **Renderização:** Compatibility para maior alcance
 
-### Estrutura de Projeto
+### Nova Estrutura de Projeto
 bug_battlers/
-├── addons/ # Extensões
+├── scenes/
+│ ├── world/ # Cenas do mundo aberto
+│ ├── interiors/ # Casa, escola, laboratório
+│ ├── ui/ # Interfaces do usuário
+│ └── characters/ # NPCs e jogador
+├── scripts/
+│ ├── core/ # Sistemas principais
+│ ├── gameplay/ # Mecânicas de jogo
+│ └── ui/ # Controles de interface
 ├── assets/
-│ ├── audio/ # Músicas e SFX
-│ ├── fonts/ # Fontes do jogo
-│ └── translations/ # Localização
-├── scenes/ # Cenas principais
-├── scripts/ # Scripts GDScript
-├── settings/ # Configurações
+│ ├── dialogue/ # Arquivos .dialogue
+│ └── educational/ # Conteúdo educativo
 └── docs/ # Documentação
 
-## Cenas Principais
+## Cenas Principais (Atualizadas)
 
 ### Core Systems
-- **Main.tscn** - Ponto de entrada do jogo
-- **GameManager.gd** - Estado global e save/load
-- **SceneManager.gd** - Transições entre cenas
-- **AudioManager.gd** - Controle de música e SFX
+- **GameManager** - Progresso educativo e save/load
+- **DialogueManager** - Sistema de conversas
+- **QuestManager** - Controle de missões educativas
+- **BugDexManager** - Catalogação de insetos
 
-### Gameplay Systems
-- **World.gd** - Gerenciamento do mundo aberto
-- **BattleSystem.gd** - Lógica de batalha por turnos
-- **Insect.gd** - Classe base para todos os insetos
-- **QuestSystem.gd** - Gerenciamento de missões
+### Gameplay Systems  
+- **ExplorationPlayer** - Movimento e interação
+- **InsectSpawner** - Geração de insetos no mundo
+- **AreaManager** - Transição entre locais
+- **TimeManager** - Ciclo dia/noite para insetos
 
 ### UI Systems
-- **UIManager.gd** - Controle de interface
-- **BattleUI.gd** - Interface de batalha
-- **BugDex.gd** - Sistema de catalogação
-- **DialogueSystem.gd** - Sistema de diálogos
+- **DialogueUI** - Interface de conversas
+- **BugDexUI** - Enciclopédia interativa
+- **QuestJournal** - Registro de missões
+- **EducationalQuiz** - Sistema de perguntas
 
-## Sistemas Técnicos
+## Sistemas Técnicos Adaptados
 
-### Sistema de Save
+### Sistema de Save (Atualizado)
 ```gdscript
-# SaveGame.gd
+# SaveGame.gd - Foco em progresso educativo
 var save_data = {
     "player_name": String,
-    "insects_caught": Array,
-    "quests_completed": Array,
-    "battle_stats": Dictionary,
-    "game_time": float
+    "discovered_insects": Array,      # Insetos encontrados
+    "completed_quests": Array,        # Missões concluídas
+    "educational_score": int,         # Pontuação em quizzes
+    "npc_relationships": Dictionary,  # Relacionamentos
+    "game_time": float,
+    "player_position": Vector2
 }
 ```
 ### Sistema de Input
-- **Teclado/Mouse:** - Controle principal
+- **Movimento** - WASD/Setas
+- **Interação** - Espaço
+- **Menu** - ESC
+- **BugDex** - B
 
-### Otimizações
-- **Texture Atlases:** - Sprites agrupados
-- **Object Pooling:** - Reuso de nós de batalha
-- **LOD:** - Menos detalhes em áreas grandes
-- **Culling:** - Descartar objetos fora de tela
+### Otimizações para Exploração
+- **Backgorund Loading** - Transições suaves entre áreas
+- **Object Pooling** - Reuso de nós de insetos
+- **Culling** - Otimização para mundo aberto
+- **LOD** - Menos detalhes em áreas distantes
 
 ### Plugins e Dependências
-- **Essenciais**
-    - **Dialogue Manager 3.0** - Sistema de diálogos
-    - **Save System 4.0** - Gerenciamento de save games
-- **Opicionais**
-    - **Input System** - Controles multiplataforma
-    - **Localization** - Suporte a múltiplos idiomas
-
-
-
+- Essenciais Mantidos
+ - Dialogue Manager 3.0
+ - Save System 4.0
+- Novas Considerções
+ - Quest System
+ - Localization

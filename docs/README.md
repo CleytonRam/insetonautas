@@ -1,73 +1,57 @@
-# Bug Battlers: Eco-Guardians - Documentação do Projeto
+# Bug Battlers: Eco-Explorers - Documentação do Projeto
 
 ## 📋 Sobre o Projeto
-**Bug Battlers: Eco-Guardians** é um RPG educativo em pixel art onde jogadores capturam e batalham com insetos reais, aprendendo sobre sustentabilidade e ecologia através de missões de pesquisa.
+**Bug Battlers: Eco-Explorers** é um jogo educativo de exploração em pixel art onde jogadores descobrem insetos reais, aprendem sobre ecologia através de missões de pesquisa e conversas com personagens inspirados em Stardew Valley.
 
-**Engine:** Godot 4.4 | **Estilo:** Pixel Art 2D | **Escopo:** Demo para Apresentação
+**Engine:** Godot 4.4 | **Estilo:** Pixel Art 2D | **Escopo:** Demo Educativa
 
 ## 📚 Documentação Completa
 
 ### [01-Conceito-Pilares.md](01-Conceito-Pilares.md)
-- Visão geral e proposta do jogo
-- Pilares de design fundamentais
-- Público-alvo e diferencial competitivo
-- Elevator pitch e conceito central
+- Nova visão do jogo como exploração educativa
+- Pilares de design focados em descoberta e aprendizado
+- Público-alvo e proposta de valor
 
-### [02-Mecanicas-Insetos.md](02-Mecanicas-Insetos.md)
-- Sistema de batalha por turnos
-- Lista completa de 8 insetos capturáveis e 3 inimigos
-- Sistema de tipos ecológicos
-- Habilidades e stats de cada inseto
-- Sistema de missões e progressão
+### [02-Mecanicas-Exploracao.md](02-Mecanicas-Exploracao.md)
+- Sistema de exploração e coleta
+- Lista de 8 insetos coletáveis
+- Sistema de missões e diálogos
+- BugDex (enciclopédia educativa)
 
 ### [03-Conteudo-Mundo.md](03-Conteudo-Mundo.md)
-- Estrutura do mundo e áreas jogáveis
-- Progressão da narrativa da demo
-- Missões principais e objetivos
-- Sistema de diálogos e eventos especiais
+- Estrutura do mundo e ciclo de jogo
+- Progressão da narrativa educativa
+- Áreas e fluxo de missões
 
 ### [04-Personagens-Insetos.md](04-Personagens-Insetos.md)
-- Detalhes dos personagens principais
-- Stats completos de todos os insetos
-- Sistema de evolução e metamorfose
-- Balanceamento e fórmulas de progressão
+- Personagens principais (Alex, Dr. Entomos)
+- Informações educativas sobre insetos
+- Sistema de coleta e BugDex
 
 ### [05-Arte-StyleGuide.md](05-Arte-StyleGuide.md)
-- Direção artística e estilo visual
-- Paleta de cores completa
-- Especificações técnicas de sprites
-- Lista de assets e prioridades
-- Princípios de design e ferramentas
+- Direção artística (mantida)
+- Paleta de cores e especificações
+- Assets prioritários
 
 ### [06-Audio-Som.md](06-Audio-Som.md)
-- Trilhas sonoras principais
-- Efeitos sonoros prioritários
-- Estilo musical e implementação
-- Estrutura de áudio no Godot
+- Trilhas para exploração e diálogos
+- Efeitos sonoros educativos
+- Atmosfera relaxante
 
 ### [07-Tecnologia-Engine.md](07-Tecnologia-Engine.md)
-- Configuração do Godot 4.4
-- Estrutura de cenas e scripts
-- Sistemas técnicos (save, input, etc.)
-- Otimizações e configuração de exportação
+- Sistemas técnicos adaptados
+- Nova estrutura de cenas
+- Save system para progresso educativo
 
 ### [08-Cronograma-Tarefas.md](08-Cronograma-Tarefas.md)
-- Cronograma de 3 semanas detalhado
-- Tarefas por prioridade e fase
-- Critérios de aceitação da demo
-- Métricas de qualidade e entrega
+- Cronograma revisado para exploração
+- Tarefas por prioridade
+- Critérios de aceitação
 
 ### [09-Documentacao-Educacional.md](09-Documentacao-Educacional.md)
-- Objetivos de aprendizagem
-- Mensagens educativas por inseto
-- Integração pedagógica no jogo
-- Validação científica e fontes
+- Objetivos de aprendizagem mantidos
+- Integração pedagógica no fluxo de jogo
 
 ## 🎯 Status do Projeto
-**Fase Atual:** Pré-produção  
-**Próxima Fase:** Implementação do protótipo de movimento
-
-## 👥 Equipe
-*Desenvolvido por um único desenvolvedor para uma Game Jam*
-
-## 📁 Estrutura do Projeto
+**Fase Atual:** Replanejamento  
+**Próxima Fase:** Implementação do sistema de exploração

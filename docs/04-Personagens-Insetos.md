@@ -2,138 +2,83 @@
 
 ## Personagens Principais
 
-### Protagonista
-- **Nome:** Alex (personalizável)
+### Alex (Protagonista)
 - **Idade:** 12 anos
-- **Função:** Estagiário do Dr. Entomos
-- **Design:** Roupa de explorador, mochila de pesquisa
-- **Personalidade:** Curioso, corajoso, apaixonado por natureza
+- **Personalidade:** Curioso, observador, um pouco tímido mas corajoso
+- **Função:** Estudante interessado em entomologia
+- **Design:** Mochila de explorador, chapéu, caderno de campo
+- **Desenvolvimento:** Ganha confiança conforme aprende
 
 ### Dr. Entomos
-- **Idade:** 60 anos
-- **Personalidade:** Sábio, paciente, apaixonado por insetos
-- **Função:** Mentor, dá missões e explicações científicas
-- **Design:** Jaleco de cientista, cabelos brancos, óculos, barba
-- **Diálogo Característico:** "Cada inseto tem uma história para contar!"
+- **Idade:** 65 anos
+- **Personalidade:** Paciente, encorajador, apaixonado por ensino
+- **Função:** Mentor e guia educativo
+- **Design:** Jaleco, óculos, postura acolhedora
+- **Diálogo:** "Cada inseto que você descobre é uma nova página no livro da natureza!"
 
-### Líder dos Negligentes - "Cascudo"
-- **Idade:** 45 anos
-- **Personalidade:** Rude, ignorante, tem medo de insetos
-- **Motivação:** Quer "limpar" a cidade de todos os insetos
-- **Design:** Roupa suja, boné, cara de poucos amigos
-- **Frases Típicas:** "Esses bichos nojentos têm que sumir!"
+### Pais do Alex (NPCs Secundários)
+- **Mãe:** Encorajadora, ajuda a preparar expedições
+- **Pai:** Cético no início, depois orgulhoso das descobertas
 
-## Insetos Capturáveis (8)
+## Insetos Coletáveis (8)
 
-### 🐜 Formiga (Decompositor)
-- **HP:** 25 | **Ataque:** 15 | **Defesa:** 20 | **Velocidade:** 10
-- **Habilidades:** 
-  - Mordida (Dano básico)
-  - Trabalho em Equipe (+Defesa para todos aliados)
-- **Curiosidade:** "Carregam até 50x seu próprio peso!"
-- **Design:** Corpo preto, cabeça grande, antenas expressivas
+### Sistema de Descoberta
+- **Habitat Específico:** Cada inseto em ambiente apropriado
+- **Horário:** Alguns diurnos, outros noturnos
+- **Indicadores Visuais:** Brilho ou movimento para atrair atenção
+- **Informação Imediata:** Curiosidade aparece ao coletar
 
-### 🐝 Abelha (Polinizador) 
-- **HP:** 20 | **Ataque:** 18 | **Defesa:** 12 | **Velocidade:** 25
-- **Habilidades:**
-  - Ferrão (Dano + chance de veneno)
-  - Polinização (Cura aliados)
-- **Curiosidade:** "Polinizam 70% dos alimentos que comemos!"
-- **Design:** Listras amarelo e preto, asas translúcidas
+### Lista de Insetos
+**🐜 Formiga** 
+- **Habitat:** Perto de árvores e formigueiros
+- **Horário:** Qualquer
+- **Curiosidade:** "As formigas se comunicam através de feromônios!"
+- **Fato Educativo:** "Importantes para aeração do solo"
 
-### 🐞 Joaninha (Predador)
-- **HP:** 22 | **Ataque:** 20 | **Defesa:** 15 | **Velocidade:** 18
-- **Habilidades:**
-  - Investida (Dano físico)
-  - Controle Biológico (Dano extra contra Pragas)
-- **Curiosidade:** "Uma joaninha come até 50 pulgões por dia!"
-- **Design:** Vermelha com pontos pretos, olhos grandes
+**🐝 Abelha**
+- **Habitat:** Jardins floridos
+- **Horário:** Dia
+- **Curiosidade:** "Uma abelha visita 50-100 flores por coleta!"
+- **Fato Educativo:** "Polinizam 70% dos alimentos humanos"
 
-### 🕷️ Aranha-Caranguejeira (Predador)
-- **HP:** 35 | **Ataque:** 22 | **Defesa:** 18 | **Velocidade:** 8
-- **Habilidades:**
-  - Mordida (Dano moderado)
-  - Pelos Urticantes (Dano + confusão no inimigo)
-- **Curiosidade:** "Seu veneno é inofensivo para humanos!"
-- **Design:** Corpo peludo marrom, pernas longas, olhos gentis
+**🐞 Joaninha**
+- **Habitat:** Folhas de plantas
+- **Horário:** Dia  
+- **Curiosidade:** "As pintas não indicam a idade!"
+- **Fato Educativo:** "Controlam naturalmente pragas de jardim"
 
-### 🦋 Borboleta (Polinizador)
-- **HP:** 18 | **Ataque:** 12 | **Defesa:** 10 | **Velocidade:** 30
-- **Habilidades:**
-  - Pólen (Cura status)
-  - Voo Elegante (+Evasão)
-- **Curiosidade:** "Existem mais de 20.000 espécies no Brasil!"
-- **Design:** Asas coloridas azuis e laranjas, voo gracioso
+**🕷️ Aranha-Caranguejeira**
+- **Habitat:** Cantos escuros do bosque
+- **Horário:** Noite
+- **Curiosidade:** "São dóceis e raramente mordem!"
+- **Fato Educativo:** "Controlam populações de insetos"
 
-### 🐦 Beija-flor (Polinizador)
-- **HP:** 24 | **Ataque:** 16 | **Defesa:** 14 | **Velocidade:** 35
-- **Habilidades:**
-  - Bico Afiado (Dano perfurante)
-  - Agilidade (+Velocidade por 3 turnos)
-- **Curiosidade:** "Únicas aves que conseguem polinizar!"
-- **Design:** Pequeno, colorido, movimento rápido
+**🦋 Borboleta**
+- **Habitat:** Flores coloridas
+- **Horário:** Dia
+- **Curiosidade:** "Provam o néctar com os pés!"
+- **Fato Educativo:** "Indicadores de ambiente saudável"
 
-### 🦉 Libélula (Predador)
-- **HP:** 26 | **Ataque:** 24 | **Defesa:** 16 | **Velocidade:** 28
-- **Habilidades:**
-  - Voo Rápido (Ataque garantido)
-  - Patrulha Aérea (Dano em área)
-- **Curiosidade:** "Têm 95% de sucesso nas caças!"
-- **Design:** Corpo alongado, asas transparentes, olhos grandes
+**🐦 Beija-flor**
+- **Habitat:** Flores tubulares
+- **Horário:** Dia
+- **Curiosidade:** "Únicas aves que voam para trás!"
+- **Fato Educativo:** "Polinizadores especializados"
 
-### 🐛 Milipéses (Decompositor)
-- **HP:** 30 | **Ataque:** 14 | **Defesa:** 25 | **Velocidade:** 5
-- **Habilidades:**
-  - Rolamento (Defesa + contra-ataque)
-  - Decomposição (Dano por veneno)
-- **Curiosidade:** "Importantes para a fertilidade do solo!"
-- **Design:** Corpo segmentado, muitas perninhas, movimento ondulante
+**🦉 Libélula**
+- **Habitat:** Perto da água
+- **Horário:** Dia
+- **Curiosidade:** "Podem voar a 50 km/h!"
+- **Fato Educativo:** "Controlam populações de mosquitos"
 
-## Insetos Inimigos (3 - Não Capturáveis)
+**🐛 Milipéses**
+- **Habitat:** Sob folhas e troncos
+- **Horário:** Noite
+- **Curiosidade:** "Não são venenosos para humanos!"
+- **Fato Educativo:** "Decompositores importantes do solo"
 
-### 🦂 Escorpião (Predador)
-- **HP:** 40 | **Ataque:** 28 | **Defesa:** 22 | **Velocidade:** 12
-- **Habilidades:**
-  - Ferrão (Dano alto + veneno)
-  - Pinça (Dano físico + imobilização)
-- **Perigo Real:** "Veneno neurotóxico perigoso!"
-- **Design:** Pinças grandes, cauda com ferrão, cor escura
-
-### 🪳 Barata (Praga)
-- **HP:** 32 | **Ataque:** 16 | **Defesa:** 28 | **Velocidade:** 20
-- **Habilidades:**
-  - Resistência (+Defesa)
-  - Nojeira (Dano + chance de envenenar)
-- **Perigo Real:** "Podem transmitir doenças!"
-- **Design:** Corpo achatado, antenas longas, cor marrom
-
-### 🐛 Centopeia (Predador)
-- **HP:** 36 | **Ataque:** 26 | **Defesa:** 20 | **Velocidade:** 22
-- **Habilidades:**
-  - Mordida Tóxica (Dano + veneno)
-  - Agilidade (Ataque múltiplo)
-- **Perigo Real:** "Picada extremamente dolorosa!"
-- **Design:** Muitas pernas, corpo segmentado, movimento rápido
-
-## Sistema de Evolução
-
-### Metamorfose Natural
-- **Lagarta** (Lv. 1-9) → **Casulo** (Lv. 10-19) → **Borboleta** (Lv. 20+)
-- **Ninfa** (Lv. 1-14) → **Libélula Adulta** (Lv. 15+)
-
-### Evolução por Amizade
-- **Formiga** → **Formiga-Soldado** (após 10 batalhas)
-- **Abelha** → **Abelha-Rainha** (após capturar 5 insetos diferentes)
-
-## Balanceamento de Stats
-
-### Fórmula de Level Up
-**HP:** +2-4 por nível
-**Ataque:** +1-3 por nível
-**Defesa:** +1-3 por nível
-**Velocidade**: +1-2 por nível
-
-### Experiência por Inseto Derrotado
-- **Inseto Comum:** 10-20 XP
-- **Inseto Raro:** 30-50 XP
-- **Inimigo Negligente:** 25-40 XP
+## Sistema de BugDex
+- **Entrada Completa:** Imagem, nome científico, habitat, curiosidades
+- **Progresso Visual:** Ícones mostrando coletados/descobrir
+- **Seção de Favoritos:** Insetos que o jogador mais gostou
+- **Estatísticas:** Tempo de observação, localizações, etc.
