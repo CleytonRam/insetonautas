@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cedcjvk81q856"
+path="res://.godot/imported/www.cabinet-avocat-cadet.fr - Kakariko Village - The Legend of Zelda Ocarina of Time Music Extended (320 KBps).mp3-3435797c02494f8efc478d87d16f2b39.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/themes/www.cabinet-avocat-cadet.fr - Kakariko Village - The Legend of Zelda Ocarina of Time Music Extended (320 KBps).mp3"
+dest_files=["res://.godot/imported/www.cabinet-avocat-cadet.fr - Kakariko Village - The Legend of Zelda Ocarina of Time Music Extended (320 KBps).mp3-3435797c02494f8efc478d87d16f2b39.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

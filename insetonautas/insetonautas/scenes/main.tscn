@@ -1,7 +1,8 @@
-[gd_scene load_steps=30 format=4 uid="uid://xb4puenohosx"]
+[gd_scene load_steps=31 format=4 uid="uid://xb4puenohosx"]
 
 [ext_resource type="Script" uid="uid://cfai1fvovfub0" path="res://scenes/main.gd" id="1_lnot1"]
 [ext_resource type="PackedScene" uid="uid://c4373iviuy8gy" path="res://helpers/camera.tscn" id="2_6kmhg"]
+[ext_resource type="AudioStream" uid="uid://cedcjvk81q856" path="res://assets/audio/themes/www.cabinet-avocat-cadet.fr - Kakariko Village - The Legend of Zelda Ocarina of Time Music Extended (320 KBps).mp3" id="2_muem4"]
 [ext_resource type="Texture2D" uid="uid://bxngxqv2vonco" path="res://world/Tiles.png" id="3_37mq2"]
 [ext_resource type="PackedScene" uid="uid://044opjcmk7ol" path="res://world/Tree.tscn" id="4_op6o1"]
 [ext_resource type="PackedScene" uid="uid://dovx8ojro1870" path="res://characters/coco/coco.tscn" id="5_ohup3"]
@@ -3828,6 +3829,9 @@ radius = 14.0
 [node name="World" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_lnot1")
+
+[node name="AudioTheme" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_muem4")
 
 [node name="Camera" parent="." node_paths=PackedStringArray("target") instance=ExtResource("2_6kmhg")]
 target = NodePath("../Coco")
