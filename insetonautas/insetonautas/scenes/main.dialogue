@@ -6,13 +6,13 @@ if State.apple_status == "has":
 	- Dar pro Nathan
 		set State.apple_status = "gave"
 		Coco: Toma, fi.
-		Nathan: Pisa menooos. [#happy]
+		Nathan: Pisa menooos. 
 		Coco: Tamo aí. 🤙
 	- Ficar pra mim
-		Coco: Sai fora, doidão.  [#shady]
+		Coco: Sai fora, doidão.  
 		Nathan: Affs, que ódio... 🙄
 elif State.apple_status == "gave":
-	Nathan: Qualquer coisa vai avisando, miga. 💅 [#happy]
+	Nathan: Qualquer coisa vai avisando, miga. 💅 
 else:
 	Nathan: Affs veyr, queria uma maçã. Tem uma árvore divônica ali do lado. 
 	Coco: Vou pegar lá pra nóis...
@@ -27,4 +27,16 @@ do coco.reach_up()
 set State.apple_status = "has"
 [wave amp=25 freq=5]Você pegou uma[color=#ff3f3f] MAÇÃ[/color].[/wave]
 Coco: Vou entregar pro cabra lá.
+=> END
+~ talk_to_nathan2
+Coco: Salve, fi. 🤙
+Nathan: Eaee meu man!!
+Coco: Tem dado em casa?
+Nathan: Tenho simm, porque?
+- KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+	Nathan: [shake rate=20.0 level=5 connected=1]Não ri de mim não po :c[/shake]
+- Nada não kk 
+	Nathan: Hmm 🧐
+- Pra saber => END
+Nathan: Tendi nada.
 => END

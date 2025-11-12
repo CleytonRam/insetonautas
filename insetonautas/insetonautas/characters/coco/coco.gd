@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-const SPEED = 50
+@export var SPEED = 50
 
 
 @onready var animation_tree: AnimationTree = $AnimationTree

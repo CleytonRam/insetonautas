@@ -1,0 +1,15 @@
+~ talk_to_formiga
+Deus: [[Eae|Ola|Oi]], como vai meu filho.
+Deus: Voce Descobtriu a [tornado rad=25 freq=5] [color=#ff3f3f]FORMIGA[/color][/tornado], o que deseja fazer? 
+- Curiosidade
+	Deus: Existem formigas que escravizam outras formigas.
+- Aprender
+	Deus: Sabia que as formigas carregam 40x o seu peso? Isso faz delas excelentes coletoras.
+- Leer de novo. => talk_to_formiga
+- Terminar Conversa. => END
+Deus: Eu amo formigas.
+=> END
+
+~ get_out
+Saindo de Casa
+=> END

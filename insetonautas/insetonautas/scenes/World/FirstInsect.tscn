@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://rgoy10ae3txa"]
+
+[ext_resource type="Texture2D" uid="uid://boccaf0pmujxt" path="res://assets/insetos/formiga.png" id="1_yd216"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4bsm5"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.115, 0.115)
+texture = ExtResource("1_yd216")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_4bsm5")

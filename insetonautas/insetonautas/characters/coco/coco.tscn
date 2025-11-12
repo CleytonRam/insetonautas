@@ -363,7 +363,7 @@ states/walk/position = Vector2(470, 88)
 [sub_resource type="CircleShape2D" id="CircleShape2D_drwg8"]
 radius = 8.0
 
-[node name="Coco" type="CharacterBody2D"]
+[node name="Coco" type="CharacterBody2D" groups=["player"]]
 collision_layer = 2
 motion_mode = 1
 script = ExtResource("1_7qnk7")
