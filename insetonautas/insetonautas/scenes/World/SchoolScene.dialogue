@@ -1,0 +1,274 @@
+~ talk_to_deusSchool
+Deus: [[Eae|Ola|Oi]], como vai meu filho.
+
+Deus: Voce Gosta de [tornado rad=25 freq=5] [color=#ff3f3f]FORMIGAS?[/color][/tornado] 
+- Sim
+	Deus: Existem formigas que escravizam outras formigas.
+- Não
+	Deus: Sabia que as formigas carregam 40x o seu peso? Isso faz delas excelentes coletoras.
+- Odeio Formigas. => angry_deus
+- Tchau seu esquisito. => END
+Deus: Eu amo formigas.
+=> END
+
+~ get_out
+Saiu da Escola
+=> END
+
+~ angry_deus
+Deus: EU TE CONDENO A QUEIMAR PELA ETERNIDADE NOS 9 INFERNOS DE DANTE
+Coco: NÃOOO PORFAVOR
+=> END
+
+
+~ Doutor
+Dr. Entomos: Eae, jovem cientista! Vamos testar seus conhecimentos?
+Dr. Entomos: O que as formigas comem?
+- Doces e outros insetos
+	Dr. Entomos: Muito bem, as formigas são realmente as faxineiras da natureza!
+	=> Doutor2
+- Apenas folhas
+	Dr. Entomos: Que pena! Elas adoram coisas doces também!
+	=> Doutor_Errado
+- Madeira
+	Dr. Entomos: Não, elas não comem madeira! Estude mais!
+	=> Doutor_Errado
+
+~ Doutor2
+Dr. Entomos: Como as abelhas acham comida?
+- Por danças
+	Dr. Entomos: Exato! A dança do balanço!
+	=> Doutor3
+- Por gritos
+	Dr. Entomos: Não, elas não gritam! Tente novamente!
+	=> Doutor_Errado
+- Por telepatia
+	Dr. Entomos: Quase! Mas é mais científico que isso!
+	=> Doutor_Errado
+
+~ Doutor3
+Dr. Entomos: O que as joaninhas comem?
+- Pulgões
+	Dr. Entomos: Correto! Até 50 por dia!
+	=> Doutor4
+- Néctar
+	Dr. Entomos: Quase! Elas são predadoras!
+	=> Doutor_Errado
+- Folhas
+	Dr. Entomos: Não, elas caçam insetos!
+	=> Doutor_Errado
+
+~ Doutor4
+Dr. Entomos: Aranhas caranguejeiras são perigosas?
+- Quase nada
+	Dr. Entomos: Exato! Veneno fraquinho!
+	=> Doutor5
+- Muito perigosas
+	Dr. Entomos: Não tanto! São dóceis!
+	=> Doutor_Errado
+- Matam humanos
+	Dr. Entomos: Não! São inofensivas!
+	=> Doutor_Errado
+
+~ Doutor5
+Dr. Entomos: Por que borboletas são coloridas?
+- Para afastar predadores
+	Dr. Entomos: Correto! Cores de alerta!
+	=> Doutor6
+- Para enfeite
+	Dr. Entomos: Não, tem função de sobrevivência!
+	=> Doutor_Errado
+- Para atrair parceiros
+	Dr. Entomos: É parte, mas não é o principal!
+	=> Doutor_Errado
+
+~ Doutor6
+Dr. Entomos: Bicho-pau parece graveto por quê?
+- Para camuflagem
+	Dr. Entomos: Exato! Mestre do disfarce!
+	=> Doutor7
+- Por acidente
+	Dr. Entomos: Não! É adaptação!
+	=> Doutor_Errado
+- Porque é feio
+	Dr. Entomos: Não! É estratégia de sobrevivência!
+	=> Doutor_Errado
+
+~ Doutor7
+Dr. Entomos: Quantas flores abelhas visitam por dia?
+- Até 1000
+	Dr. Entomos: Correto! Incansáveis!
+	=> Doutor8
+- 10-20
+	Dr. Entomos: Muito mais! São trabalhadeiras!
+	=> Doutor_Errado
+- 100-200
+	Dr. Entomos: Quase! É bem mais!
+	=> Doutor_Errado
+
+~ Doutor8
+Dr. Entomos: Como formigas carregam coisas pesadas?
+- Trabalho em equipe
+	Dr. Entomos: Exato! Chamam as amigas!
+	=> Doutor9
+- Sozinhas
+	Dr. Entomos: Não! Elas se ajudam!
+	=> Doutor_Errado
+- Com máquinas
+	Dr. Entomos: Quase! Mas é força natural!
+	=> Doutor_Errado
+
+~ Doutor9
+Dr. Entomos: O que acontece quando abelha pica?
+- Ela morre
+	Dr. Entomos: Triste, mas verdadeiro!
+	=> Doutor10
+- Nada
+	Dr. Entomos: Infelizmente não!
+	=> Doutor_Errado
+- Fica mais forte
+	Dr. Entomos: Não, é seu último ato!
+	=> Doutor_Errado
+
+~ Doutor10
+Dr. Entomos: Joaninhas soltam o que para se defender?
+- Líquido fedorento
+	Dr. Entomos: Correto! Spray químico!
+	=> Doutor11
+- Veneno
+	Dr. Entomos: Quase! É algo fedorento!
+	=> Doutor_Errado
+- Fogo
+	Dr. Entomos: Não, seria perigoso!
+	=> Doutor_Errado
+
+~ Doutor11
+Dr. Entomos: Aranhas são peludas por quê?
+- Sentir vibrações
+	Dr. Entomos: Exato! Super sensíveis!
+	=> Doutor12
+- Para enfeite
+	Dr. Entomos: Não! Tem função importante!
+	=> Doutor_Errado
+- Porque é fofinha
+	Dr. Entomos: É fofa, mas tem motivo científico!
+	=> Doutor_Errado
+
+~ Doutor12
+Dr. Entomos: Borboletas comem o que?
+- Néctar
+	Dr. Entomos: Correto! Só o melhor das flores!
+	=> Doutor13
+- Folhas
+	Dr. Entomos: Só quando são lagartas!
+	=> Doutor_Errado
+- Insetos
+	Dr. Entomos: Não, são herbívoras!
+	=> Doutor_Errado
+
+~ Doutor13
+Dr. Entomos: Bicho-pau se defende como?
+- Ficando parado
+	Dr. Entomos: Exato! Imobilidade!
+	=> Doutor14
+- Correndo
+	Dr. Entomos: Não! Eles são mais espertos!
+	=> Doutor_Errado
+- Atacando
+	Dr. Entomos: Quase! Mas a primeira defesa é imobilidade!
+	=> Doutor_Errado
+
+~ Doutor14
+Dr. Entomos: Quantas formigas num formigueiro?
+- Milhares
+	Dr. Entomos: Correto! Cidades subterrâneas!
+	=> Doutor15
+- Até 100
+	Dr. Entomos: Muito mais! Sociedades gigantes!
+	=> Doutor_Errado
+- Algumas dúzias
+	Dr. Entomos: Não, são bem mais!
+	=> Doutor_Errado
+
+~ Doutor15
+Dr. Entomos: Por que abelhas são importantes?
+- Polinização
+	Dr. Entomos: Exato! 70% dos alimentos!
+	=> Doutor16
+- Pelo mel
+	Dr. Entomos: Isso é bônus! A principal é outra!
+	=> Doutor_Errado
+- Pela cera
+	Dr. Entomos: Importante, mas não é o principal!
+	=> Doutor_Errado
+
+~ Doutor16
+Dr. Entomos: Joaninhas são símbolo de quê?
+- Sorte
+	Dr. Entomos: Correto! Protegem plantações!
+	=> Doutor17
+- Beleza
+	Dr. Entomos: São bonitas, mas tem mais!
+	=> Doutor_Errado
+- Amor
+	Dr. Entomos: Quase! Mas é mais sobre proteção!
+	=> Doutor_Errado
+
+~ Doutor17
+Dr. Entomos: Aranhas caranguejeiras andam como?
+- De ladinho
+	Dr. Entomos: Exato! Como caranguejo!
+	=> Doutor18
+- Normal
+	Dr. Entomos: Não! Tem estilo único!
+	=> Doutor_Errado
+- Para trás
+	Dr. Entomos: Quase! É de lado!
+	=> Doutor_Errado
+
+~ Doutor18
+Dr. Entomos: Borboletas surgem como?
+- Metamorfose
+	Dr. Entomos: Correto! De lagarta para linda!
+	=> Doutor19
+- Do nada
+	Dr. Entomos: Não! É uma transformação!
+	=> Doutor_Errado
+- Direto do ovo
+	Dr. Entomos: Quase! Passam por fases!
+	=> Doutor_Errado
+
+~ Doutor19
+Dr. Entomos: Bicho-pau solta o que quando ameaçado?
+- Líquido fedorento
+	Dr. Entomos: Exato! Spray de rock!
+	=> Doutor20
+- Nada
+	Dr. Entomos: Solta sim! É sua defesa!
+	=> Doutor_Errado
+- Veneno
+	Dr. Entomos: Quase! É fedorento, não venenoso!
+	=> Doutor_Errado
+
+~ Doutor20
+Dr. Entomos: Última pergunta! O que todos esses insetos têm em comum?
+- São importantes para natureza
+	Dr. Entomos: Perfeito! Cada um tem seu papel vital!
+	=> Doutor_Final
+- São bonitos
+	Dr. Entomos: Verdade, mas tem algo mais importante!
+	=> Doutor_Errado
+- São pequenos
+	Dr. Entomos: Quase! Mas o importante é sua função!
+	=> Doutor_Errado
+
+~ Doutor_Final
+Dr. Entomos: INCRÍVEL! Você acertou todas as 20 perguntas!
+Dr. Entomos: Você é um verdadeiro EXPERT em insetos!
+Dr. Entomos: Continue explorando e aprendendo sobre a natureza!
+set State.insetonauta_status = "has"
+=> END
+~ Doutor_Errado
+Dr. Entomos: Volte e faça o Quiz quando tiver estudado mais insetos
+Dr. Entomos: Eu soube que se você falar com os insetos, eles te contam tudo sobre eles
+=> END

@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://bf184iurogip5"]
+
+[ext_resource type="Script" uid="uid://dohc6vqxgu12f" path="res://helpers/base_portrait.gd" id="1_olof3"]
+[ext_resource type="Texture2D" uid="uid://ca3mpnwf621il" path="res://characters/abelha/bodypixel.svg" id="2_olof3"]
+[ext_resource type="Texture2D" uid="uid://5gkwxjih4muo" path="res://characters/abelha/face.svg" id="3_p25f5"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tiydy"]
+
+[node name="Portrait" type="Node2D" node_paths=PackedStringArray("animation_player")]
+position = Vector2(0, 3)
+script = ExtResource("1_olof3")
+animation_player = NodePath("AnimationPlayer")
+
+[node name="Anchor" type="Marker2D" parent="."]
+
+[node name="Body" type="Sprite2D" parent="Anchor"]
+position = Vector2(117, 163)
+scale = Vector2(2, 2)
+texture = ExtResource("2_olof3")
+centered = false
+offset = Vector2(-150, -250)
+
+[node name="Face" type="Sprite2D" parent="Anchor/Body"]
+position = Vector2(-33.5, -159)
+texture = ExtResource("3_p25f5")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+&"": SubResource("AnimationLibrary_tiydy")
+}

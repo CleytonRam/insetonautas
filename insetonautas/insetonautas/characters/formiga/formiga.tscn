@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://c2fwfkvyo1nhl"]
+
+[ext_resource type="Texture2D" uid="uid://bu36r17aua5qn" path="res://assets/insetos/sprites_insetos/formiga_insetonauta_spritesheet.png" id="1_1m78n"]
+[ext_resource type="Script" uid="uid://brcdtvg05drtx" path="res://characters/formiga/formiga.gd" id="1_2rqjh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rqjh"]
+atlas = ExtResource("1_1m78n")
+region = Rect2(0, 0, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0323y"]
+atlas = ExtResource("1_1m78n")
+region = Rect2(16, 0, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4pgc"]
+atlas = ExtResource("1_1m78n")
+region = Rect2(64, 0, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhyhy"]
+atlas = ExtResource("1_1m78n")
+region = Rect2(80, 0, 16, 15)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hi8qw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rqjh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0323y")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4pgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhyhy")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1m78n"]
+size = Vector2(7.5, 12)
+
+[node name="Formiga" type="CharacterBody2D"]
+collision_mask = 0
+script = ExtResource("1_2rqjh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hi8qw")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.75, 2)
+shape = SubResource("RectangleShape2D_1m78n")

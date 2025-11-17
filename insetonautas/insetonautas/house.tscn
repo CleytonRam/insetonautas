@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://dpvy21ifqpluf"]
+
+[ext_resource type="Texture2D" uid="uid://pj2whb0ho68x" path="res://assets/tileset/casita.png" id="1_hfkix"]
+[ext_resource type="Script" uid="uid://c43ny8p8y6d8u" path="res://house.gd" id="1_metfq"]
+[ext_resource type="Resource" uid="uid://by7w13svptt08" path="res://scenes/World/HouseScene.dialogue" id="2_6syyc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_metfq"]
+size = Vector2(102, 52)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6syyc"]
+
+[node name="House" type="StaticBody2D"]
+collision_mask = 2
+script = ExtResource("1_metfq")
+dialogue_resource = ExtResource("2_6syyc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hfkix")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 15)
+shape = SubResource("RectangleShape2D_metfq")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 36)
+shape = SubResource("CircleShape2D_6syyc")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://l5qet285wb6l"
+path="res://.godot/imported/www.cabinet-avocat-cadet.fr - Radiohead - Kid A (Instrumental) (128 KBps).mp3-faa07ea1a122ace35766bf3420651feb.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/themes/www.cabinet-avocat-cadet.fr - Radiohead - Kid A (Instrumental) (128 KBps).mp3"
+dest_files=["res://.godot/imported/www.cabinet-avocat-cadet.fr - Radiohead - Kid A (Instrumental) (128 KBps).mp3-faa07ea1a122ace35766bf3420651feb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

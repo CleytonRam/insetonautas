@@ -40,3 +40,353 @@ Nathan: Tenho simm, porque?
 - Pra saber => END
 Nathan: Tendi nada.
 => END
+
+~ enter_house
+Entrou em casa
+=> END
+~ talk_to_ant
+Coco: Oi, formiga! 🐜
+Formiga: [speed=2.0]Olá! Tudo bem? Ah, desculpa a pressa mas tenho mil coisas pra fazer!
+
+- Como é a vida no formigueiro?
+  Formiga: [speed=2.5]Uma correria! Mas somos super organizadas! Tem quartos pra comida, berçário, até área da rainha! É uma cidade subterrânea!
+
+- O que vocês comem?
+  Formiga: [speed=2.0]TUDO que é doce! Mel, frutas, açúcar... Mas também comemos outros insetos - somos as faxineiras da natureza!
+
+- Como carregam coisas pesadas?
+  Formiga: [speed=2.5]Força pura! Carrego até 50x meu peso! É como você carregar um carro nas costas! E sempre chamamos as amigas - trabalho em equipe!
+
+- Por que andam em fila?
+  Formiga: [speed=2.0]Segue o cheiro! Deixamos um rastro perfumado (feromônio) no chão. Achou comida? Faz a trilha e todo mundo vem!
+
+- Vocês dormem?
+  Formiga: [speed=1.5]Pouco... mas sim! Dormimos em turnos - sempre tem alguém acordado cuidando do formigueiro!
+
+- Quantas irmãs você tem?
+  Formiga: [speed=2.5]Milhares! Tem a mamãe rainha que bota os ovos, nós operárias que fazemos tudo, e as soldados que protegem!
+
+- Tchau, obrigado!
+  Formiga: [speed=2.5]Valeu! Se vir um açucareiro por aí, me avisa! Já vou, já vou - o trabalho chama!
+  => END
+
+~ talk_to_tarantula
+Coco: Oi, aranha-caranguejeira! 🕷️
+Aranha: [speed=0.8]Olá, pequeno aventureiro... que bom ver alguém sem medo de nós.
+Coco: Posso te fazer algumas perguntas?
+
+- Por que você é tão peluda?
+  Aranha: [speed=1.0]Ah, meus pelinhos... [speed=0.6]eles são super sensíveis! [speed=1.0]Me ajudam a sentir vibrações no ar e no chão. [speed=0.8]É como ter superpoderes!
+
+- Você é perigosa para humanos?
+  Aranha: [speed=0.7]Quase nada... [speed=1.0]meu veneno é fraquinho, como uma picada de abelha. [speed=0.8]Prefiro fugir do que brigar!
+
+- O que você come?
+  Aranha: [speed=0.9]Insetos que incomodam as plantinhas... [speed=1.0]baratas, grilos, mariposas. [speed=0.7]Sou a faxineira da natureza!
+
+- Por que se chamam "caranguejeiras"?
+  Aranha: [speed=0.8]Porque andamos de ladinho, igual caranguejo! [speed=1.0][wave]É bem elegante, não acha?[/wave]
+
+- As pessoas têm medo à toa de você?
+  Aranha: [speed=0.6]Infelizmente sim... [speed=0.8]mas somos dóceis e importantes. [speed=1.0]Contamos com você para espalhar a verdade!
+
+- Onde você gosta de viver?
+  Aranha: [speed=0.8]Cantinhos escuros e tranquilos... [speed=0.6]debaixo de folhas, tocas no chão. [speed=1.0]Sou uma caseira de verdade!
+
+- Tchau, obrigado pela conversa!
+  Aranha: [speed=0.7]Volte sempre... [speed=1.0]e lembre-se: somos amigas do jardim!
+  => END
+
+~ talk_to_stickbug
+Coco: Oi, bicho-pau!
+Bicho-pau: [speed=1.5]E aí, bicho humano! [speed=2.0]Finalmente veio me ver?[speed=1.0]Eu sou o Phasmatodea mais famoso da floresta!
+
+- Phasmatodea? Isso é seu nome científico?
+  Bicho-pau: [speed=1.5]Isso aí, bicho humano! [speed=1.0]Phasmatodea vem do grego "fantasma"! [speed=2.0]Porque eu apareço e desapareço como um fantasma! [speed=1.5]Mas um fantasma muito estiloso!
+
+- Como você consegue ficar tão parado?
+  Bicho-pau: [speed=1.0]Anos de treino, meu caro! [speed=1.5]Eu pratico a arte da imobilidade! [speed=2.0]Fico horas sem me mexer - é meu superpoder! [speed=1.0]Até os predadores passam reto!
+
+- É verdade que alguns de vocês voam?
+  Bicho-pau: [speed=2.0]Alguns primos meus têm asas, sim! [speed=1.5]Mas eu prefiro o estilo "rock and roll" no chão! [speed=1.0]Balango devagar, sou o rei do ritmo!
+
+- O que você faz à noite?
+  Bicho-pau: [speed=1.0]Ah, aí a festa começa! [speed=2.0]Sou noturno, bicho humano! [speed=1.5]De dia faço meu show de imobilidade, de noite como folhas e faço a farra!
+
+- Como é que você nasceu?
+  Bicho-pau: [speed=1.5]História interessante! [speed=1.0]Algumas de minhas irmãs nem precisam de macho! [speed=2.0]Isso mesmo - partenogênese! [speed=1.5]Somos as rainhas da independência!
+
+- É verdade que solta um líquido fedorento?
+  Bicho-pau: [speed=2.0]Ah, meu spray de rock! [speed=1.0]É minha defesa química! [speed=1.5]Quando me perturbam, solto um fedor que faz qualquer um recuar! [speed=2.0]Guitarra solo de fedor!
+
+- Você troca de pele?
+  Bicho-pau: [speed=1.5]Troco sim, bicho humano! [speed=1.0]É minha mudança de figurino! [speed=2.0]Cresço e preciso de uma roupa nova - ecdise é o nome do show!
+
+- Quanto tempo você vive?
+  Bicho-pau: [speed=1.0]Depende do estilo de vida! [speed=1.5]Mas geralmente 1-2 anos de puro rock! [speed=2.0]Tempo suficiente para fazer história na floresta!
+
+- Tem algum parente famoso?
+  Bicho-pau: [speed=2.0]Tenho sim! [speed=1.5]Meu primo bicho-folha é quase tão legal quanto eu! [speed=1.0]Ele se disfarça de folha - criatividade pura!
+
+- Tchau, foi incrível conversar com você!
+  Bicho-pau: [speed=1.5]Agradeço a audiência, bicho humano! [speed=2.0]Lembra: sou o inseto mais estiloso da floresta! [speed=1.0]Phasmatodea no pedal!
+  => END
+
+~ talk_to_bee
+Coco: Olá, abelha! 🐝
+Abelha: [speed=1.8]Zum zum! Olá, amiguinho! [speed=1.3]Estava polinizando estas [wave]flores lindas[/wave]! [speed=1.5]Precisa de alguma coisa?
+
+- Como é o seu trabalho de polinização?
+  Abelha: [speed=1.8]Ah, é incrível! [speed=1.3]Eu visito até [shake rate=10 level=5]1000 flores[/shake] por dia! [speed=1.5]Levo pólen de uma flor para outra - é como ser carteiro das plantas! [speed=1.8]Sem nós, [rainbow]70% dos alimentos[/rainbow] sumiriam!
+
+- É verdade que vocês dançam para se comunicar?
+  Abelha: [speed=2.0]Sim, é nossa dança do balanço! [speed=1.5]Quando acho uma florada boa, volto e danço para as irmãs! [speed=1.8]A direção e duração da dança mostram onde fica o banquete!
+
+- Como fazem o mel?
+  Abelha: [speed=1.5]É um processo bem elaborado! [speed=1.3]Coletamos néctar, misturamos com [shake]enzimas especiais[/shake]... [speed=1.8]e depois batemos nossas asinhas para evaporar a água! [speed=1.5]Trabalho em equipe puro!
+
+- Por que algumas abelhas picam?
+  Abelha: [speed=1.3]Ah, só picamos em último caso! [speed=1.0]Infelizmente [wave]morremos depois de picar[/wave]... [speed=1.5]mas é para proteger a colmeia! [speed=1.8]Por favor, não perturbe nossas casas!
+
+- Qual é seu nome científico?
+  Abelha: [speed=1.5]Sou da família [rainbow]Apidae[/rainbow]! [speed=1.8]A mais famosa é a [wave]Apis mellifera[/wave]! [speed=1.3]Que significa "abelha que carrega mel" - bem apropriado, né?
+
+- Quantas abelhas vivem numa colmeia?
+  Abelha: [speed=1.8]Uma cidade inteira! [speed=1.5]Pode ter até [shake rate=5 level=10]80.000[/shake] moradoras! [speed=1.3]Tem a rainha, as operárias como eu, e os zangões! [speed=1.8]Cada uma com sua função!
+
+- Vocês estão em perigo?
+  Abelha: [speed=1.3]Infelizmente sim... [speed=1.0][wave]pesticidas e perda de habitat[/wave] nos ameaçam. [speed=1.5]Mas você pode ajudar plantando flores nativas! [speed=1.8]Jardins são nossos restaurantes favoritos!
+
+- Como é o mel da colmeia?
+  Abelha: [speed=1.5]Cada flor dá um mel diferente! [speed=1.8]Laranjeira, eucalipto, flor do campo... [speed=1.3]É como ter vários sabores na despensa! [speed=1.5]E dura anos sem estragar!
+
+- O que você faz no inverno?
+  Abelha: [speed=1.3]Ficamos na colmeia, bem juntinhas! [speed=1.5]Comemos o mel que armazenamos e [bounce]vibramos as asas[/bounce] para nos aquecer! [speed=1.8]É nosso aconchego de inverno!
+
+- Tchau, obrigado pelas informações!
+  Abelha: [speed=1.8]Obrigada você! [speed=1.5]Lembre-se: [rainbow]proteja as abelhas[/rainbow]! [speed=1.3]Zum zum e até mais!
+  => END
+
+~ talk_to_butter
+Coco: Oi, borboleta! 🦋
+Borboleta: [speed=1.5]Oh, hello, amore! [speed=1.8]Finalmente veio me admirar? [speed=1.3]Eu sabia que não resistiria à minha beleza!
+
+- Por que você é tão colorida?
+  Borboleta: [speed=1.8]Ah, queride! [rainbow]Essas asas são minha assinatura[/rainbow]! [speed=1.5]Cada cor é um statement fashion! [speed=2.0]E serve pra afastar os haters - digo, predadores!
+
+- O que você come?
+  Borboleta: [speed=1.5]Só o néctar mais [wave]exclusivo[/wave] dessas flores, amore! [speed=1.8]Nada de fast food - sou gourmet! [speed=1.3]E de quebra ainda faço polinização, mas isso é bônus!
+
+- Como você surgiu?
+  Borboleta: [speed=1.8]Ah, minha metamorfose foi um [shake rate=8 level=3]glow-up[/shake] radical! [speed=1.5]De lagarta básica para essa diva maravilhosa! [speed=2.0]Foi meu momento Cinderela, amore!
+
+- Por que você vive tão pouco?
+  Borboleta: [speed=1.3]Quality over quantity, queride! [speed=1.8]Prefiro [wave]uma vida intensa e glamourosa[/wave] do que anos de monotonia! [speed=1.5]E algumas de nós vivem meses, tá?
+
+- Você é importante para o meio ambiente?
+  Borboleta: [speed=1.8]Claro que sim! [speed=2.0]Sem mim, quem vai polinizar com tanto estilo? [speed=1.5]As abelhas são tão básicas... eu trago o [rainbow]glamour[/rainbow] pra polinização!
+
+- Qual é seu nome científico?
+  Borboleta: [speed=1.5]Sou da ordem [wave]Lepidoptera[/wave], amore! [speed=1.8]Soa tão chique, né? [speed=2.0]Combina com meu jeito diva!
+
+- Como você se protege?
+  Borboleta: [speed=1.8]Minha beleza é minha armadura! [speed=1.5]Umas têm cores de alerta, outras parecem com folhas... [speed=2.0]Mas eu prefiro o look [shake rate=5 level=5]bafônico[/shake] mesmo!
+
+- Você tem muitos inimigos?
+  Borboleta: [speed=1.5]Inimigos? [speed=2.0]Chamo de [wave]fãs obsessivos[/wave]! [speed=1.8]Tem uns pássaros e aranhas que não largam meu pé, mas eu dou um voo dramático e já era!
+
+- Tchau, foi um prazer!
+  Borboleta: [speed=1.8]Já vai, amore? [speed=2.0]Volte sempre para apreciar minha beleza! [speed=1.5]E lembre-se: [rainbow]seja uma borboleta, nunca uma mariposa[/rainbow]!
+  => END
+
+~ talk_to_ladybug
+Coco: Oi, joaninha! 🐞
+Joaninha: [speed=1.8]E aí, parceiro! [speed=2.0]Tava malhando as asas aqui! [speed=1.5]Precisa de algo? Tô meio ocupado, mas dá um tempo!
+
+- Por que você tem essas pintinhas?
+  Joaninha: [speed=2.0]Irmão, isso aqui é [shake rate=15 level=5]puro shape[/shake]! [speed=1.8]Cada pinta é um músculo conquistado! [speed=2.0]E ainda assusta os predadores - acham que sou perigosa!
+
+- O que você come?
+  Joaninha: [speed=2.0]PULGÕES, MEU CONSAGRADO! [speed=1.8]É meu whey protein natural! [speed=2.0]Como uns 50 por dia - [shake]faz parte do treino[/shake]!
+
+- Você é forte mesmo?
+  Joaninha: [speed=1.8]Olha só essas costas! [speed=2.0]Carrego 50 vezes meu peso! [speed=1.5]É igual malhar com anilha o dia todo! [speed=2.0]BORA TREINAR!
+
+- Por que você é símbolo de sorte?
+  Joaninha: [speed=1.8]Porque eu [rainbow]RESOLVO[/rainbow], parceiro! [speed=2.0]Chego num jardim e acabo com as pragas! [speed=1.8]Sou o exterminador do mundo das plantas!
+
+- Como você voa com essas asinhas?
+  Joaninha: [speed=2.0]Asinhas? [shake rate=10 level=8]SÃO ASAS DE AÇO[/shake]! [speed=1.8]Debaixo desse meu casaco vermelho tem um motor a jato! [speed=2.0]Voo igual caça militar!
+
+- Você trabalha em equipe?
+  Joaninha: [speed=1.5]Sozinho mesmo, parceiro! [speed=2.0]Mas quando a infestação é grande, chamo a [wave]tropa[/wave]! [speed=1.8]Aí é festa na horta!
+
+- Qual seu nome científico?
+  Joaninha: [speed=1.8]Coccinellidae, [wave]SEU CABRA[/wave]! [speed=2.0]Mas pode me chamar de DEUS DA LUTA CONTRA PRAGAS!
+
+- Como se defende dos predadores?
+  Joaninha: [speed=2.0]Além do visual [shake]intimidante[/shake]? [speed=1.8]Solto um líquido que deixa qualquer um com nojo! [speed=2.0]É meu golpe especial!
+
+- Tchau, valeu pela força!
+  Joaninha: [speed=2.0]VALEU, IRMÃO! [speed=1.8]Se ver uns pulgões por aí, me avisa! [speed=2.0]BORA DAR UM ROLÊ!
+  => END
+~ talk_to_ant_v2
+Coco: Oi, formiga! Mais uma dúvida!
+Formiga: [speed=2.0]Fala! Mas rápido, tô numa correria!
+
+- Vocês têm algum superpoder?
+  Formiga: [speed=2.5]Superforça é óbvio! [speed=1.8]Mas também criamos estradas subterrâneas complexas! [speed=2.0]Somos engenheiras natas!
+
+- Como se organizam tanto?
+  Formiga: [speed=2.0]Cada uma sabe seu papel! [speed=1.5]Tem as babysitters, as coletoras, as soldados... [speed=2.0]É uma sociedade perfeita!
+=> END
+~ talk_to_ant_v3  
+Coco: Formiga, conta mais uma!
+Formiga: [speed=2.5]Só mais uma, tô atrasada!
+
+- Vocês dormem?
+  Formiga: [speed=1.8]Dormimos sim! [speed=2.0]Mas em turnos de 1 minuto, várias vezes por dia! [speed=1.5]Sonecas estratégicas!
+
+- Têm predadores?
+  Formiga: [speed=2.0]Tamanduás são nossos piores inimigos! [speed=1.8]Mas nossa união é nossa força! [speed=2.0]Atacamos em grupo!
+=> END
+~ talk_to_tarantula_v2
+Coco: Oi, aranha! Mais perguntas?
+Aranha: [speed=0.8]Claro, adoro conversar com curiosos...
+
+- Como você cresce?
+  Aranha: [speed=1.0]Troco de pele, querido! [speed=0.7]É como renovar meu casaco elegante... [speed=1.0]e fico maior a cada vez!
+
+- Vive quanto tempo?
+  Aranha: [speed=0.8]As fêmeas vivem até 30 anos! [speed=1.0]Somos as matriarcas pacientes da natureza...
+=> END
+
+~ talk_to_tarantula_v3
+Coco: Aranha, última dúvida!
+Aranha: [speed=0.9]Estou ouvindo...
+
+- Você tece teias?
+  Aranha: [speed=1.0]Não, sou caçadora! [speed=0.8]Prefiro emboscar minhas presas... [speed=1.0]é mais emocionante!
+
+- Tem família grande?
+  Aranha: [speed=0.7]Posso ter até 1000 filhotes! [speed=1.0]Mas eles são independentes desde cedo...
+=> END
+
+~ talk_to_stickbug_v2
+Coco: E aí, bicho-pau!
+Bicho-pau: [speed=1.8]O rockstar está aqui! O que quer saber?
+
+- Como você se reproduz?
+  Bicho-pau: [speed=2.0]Algumas de nós nem precisam de macho! [speed=1.5]Partenogênese, bicho humano! [speed=2.0]Somos as rainhas da independência!
+
+- É verdade que imitam plantas?
+  Bicho-pau: [speed=1.8]Imitamos galhos, folhas, até líquens! [speed=2.0]Somos os mestres do disfarce!
+=> END
+~ talk_to_stickbug_v3
+Coco: Bicho-pau, mais curiosidades!
+Bicho-pau: [speed=2.0]Sempre tenho histórias!
+
+- Onde você vive?
+  Bicho-pau: [speed=1.5]Florestas tropicais são meu palco! [speed=2.0]Mas tem uns primos meus em todo lugar!
+
+- É venenoso?
+  Bicho-pau: [speed=1.8]Não, só fedorento! [speed=2.0]Mas meu spray químico afasta qualquer um!
+=> END
+
+~ talk_to_bee_v2
+Coco: Abelha, tenho mais dúvidas!
+Abelha: [speed=1.8]Zum zum! Pode perguntar!
+
+- Como é a rainha?
+  Abelha: [speed=1.5]Ela é a mãe de todas nós! [speed=1.8]Bota até 2000 ovos por dia! [speed=2.0]E vive por anos!
+
+- Vocês se aposentam?
+  Abelha: [speed=1.3]Não, trabalhamos até o fim! [speed=1.8]Cada fase da vida tem uma função!
+=> END
+~ talk_to_bee_v3
+Coco: Abelha, última!
+Abelha: [speed=1.5]Vou lá polinizar então!
+
+- Fazem só mel?
+  Abelha: [speed=1.8]Também fazemos cera, geleia real, própolis! [speed=2.0]Somos uma fábrica natural!
+
+- Como se orientam?
+  Abelha: [speed=1.5]Usamos o sol como bússola! [speed=1.8]E temos relógio interno preciso!
+=> END
+
+~ talk_to_butter_v2
+Coco: Borboleta, mais uma!
+Borboleta: [speed=1.8]Só se for rápida, amore!
+
+- Quantas espécies existem?
+  Borboleta: [speed=2.0]Mais de 20.000, queride! [speed=1.5]Cada uma mais fabulosa que a outra!
+
+- Você migra?
+  Borboleta: [speed=1.8]Algumas de nós viajam milhares de km! [speed=2.0]Eu prefiro o glamour local!
+=> END
+
+~ talk_to_butter_v3
+Coco: Borboleta, últimas questões!
+Borboleta: [speed=1.5]Pode vir, mas já vou dar meu voo dramático!
+
+- Suas asas são frágeis?
+  Borboleta: [speed=1.8]São cobertas de escamas! [speed=2.0]Como milhares de lantejoulas naturais!
+
+- Tem inimigos?
+  Borboleta: [speed=1.5]Pássaros, aranhas, lagartos... [speed=2.0]Mas meu voo zigzag é minha defesa!
+=> END
+
+~ talk_to_ladybug_v2
+Coco: Joaninha, mais perguntas!
+Joaninha: [speed=2.0]BORA, MAS RÁPIDO!
+
+- Suas pintas significam algo?
+  Joaninha: [speed=1.8]Nada a ver com idade, parceiro! [speed=2.0]É só minha identidade visual!
+
+- Você hiberna?
+  Joaninha: [speed=1.5]Hiberno sim! [speed=2.0]Agregamos em grupos pra passar o inverno! [speed=1.8]Conforto coletivo!
+=> END
+~ talk_to_ladybug_v3
+Coco: Joaninha, última!
+Joaninha: [speed=2.0]FALA, CONSAGRADO!
+
+- Tem joaninhas de outras cores?
+  Joaninha: [speed=1.8]Tem amarela, laranja, até preta! [speed=2.0]Mas a vermelha é a clássica!
+
+- Como são os bebês?
+  Joaninha: [speed=1.5]Os filhotes parecem jacarés minúsculos! [speed=2.0]Já nascem com fome de pulgão!
+=> END
+~ door_closed
+Porta trancada
+Coco: Vou voltar outra hora!
+=> END
+
+~ flores
+Coco: Nossa que flores mais lindas
+=> END
+
+~ enter_school
+Entrando na escola
+=> END
+
+
+~ cleyton
+Aqui jaz Cleyton Ramsay 🍁, Desenvolvedor, Game Designer e TDAH.
+=> END
+~ juan
+Aqui jaz Juan de Souza 🌼, Desenvolvedor, Game Designer e o Artista mais Cabuloso que esse mundo ja presenciou.
+=> END
+~ catarine
+Aqui jaz Maria Catarine 🌹, Desenvolvedora, Bisexual e mãe de pet.
+=> END
+~ savinho
+Aqui jaz Savio Gomes 🐵, Desenvolvedor, Escritor , Apreciador de macacos e jogador numero 1 de blox fruits
+=> END
+
+~ talk_to_nathan3
+Nathan: [speed=0.5] Meu filho pulou no poço a alguns anos, nunca mais o vi..... :c
+=> END
+
+~ deus
+Deus: Eu gosto daqui, é bem bonito
+=> END

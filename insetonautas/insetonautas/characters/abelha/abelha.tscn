@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://uefdviq2al1d"]
+
+[ext_resource type="Script" uid="uid://brcdtvg05drtx" path="res://characters/formiga/formiga.gd" id="1_a5dbm"]
+[ext_resource type="Texture2D" uid="uid://cey35trlfbxuh" path="res://assets/insetos/sprites_insetos/abelha_insetonauta_spritesheet.png" id="2_a5dbm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtkr3"]
+atlas = ExtResource("2_a5dbm")
+region = Rect2(0, 0, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cy16d"]
+atlas = ExtResource("2_a5dbm")
+region = Rect2(16, 0, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67e26"]
+atlas = ExtResource("2_a5dbm")
+region = Rect2(96, 0, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ijaa"]
+atlas = ExtResource("2_a5dbm")
+region = Rect2(112, 0, 16, 15)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hi8qw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtkr3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cy16d")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67e26")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ijaa")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1m78n"]
+size = Vector2(7.5, 12)
+
+[node name="Abelha" type="CharacterBody2D"]
+collision_mask = 0
+script = ExtResource("1_a5dbm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hi8qw")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.75, 2)
+shape = SubResource("RectangleShape2D_1m78n")

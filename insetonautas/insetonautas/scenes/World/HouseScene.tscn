@@ -1,7 +1,9 @@
-[gd_scene load_steps=19 format=4 uid="uid://c1pstn5gqc325"]
+[gd_scene load_steps=22 format=4 uid="uid://c1pstn5gqc325"]
 
+[ext_resource type="Script" uid="uid://c52sr320fx77x" path="res://scenes/World/house_scene.gd" id="1_71kge"]
 [ext_resource type="PackedScene" uid="uid://c4373iviuy8gy" path="res://helpers/camera.tscn" id="1_cga4b"]
 [ext_resource type="Texture2D" uid="uid://cbpb2f4nl5ode" path="res://assets/tileset/4 BigSet.png" id="2_5ryhr"]
+[ext_resource type="AudioStream" uid="uid://xbc2kmwsql8l" path="res://assets/audio/themes/www.cabinet-avocat-cadet.fr - 20 Min by Lil Uzi Instrumental but it sounds like it s being played in another room (128 KBps).mp3" id="2_nk2h1"]
 [ext_resource type="PackedScene" uid="uid://dovx8ojro1870" path="res://characters/coco/coco.tscn" id="2_t513f"]
 [ext_resource type="PackedScene" uid="uid://nr16awv2wk5v" path="res://scenes/World/Door.tscn" id="3_w56jm"]
 [ext_resource type="Texture2D" uid="uid://b3irh5vycd7lj" path="res://assets/furniture/bed.png" id="4_gwooj"]
@@ -653,6 +655,9 @@ texture = ExtResource("2_5ryhr")
 sources/0 = SubResource("TileSetAtlasSource_im043")
 sources/1 = SubResource("TileSetAtlasSource_71kge")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pju8o"]
+size = Vector2(16.4849, 8.4516)
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_8te6d"]
 radius = 8.0
 
@@ -881,6 +886,11 @@ sources/0 = SubResource("TileSetAtlasSource_gwooj")
 [node name="HouseScene" type="Node2D"]
 y_sort_enabled = true
 position = Vector2(0, 6)
+script = ExtResource("1_71kge")
+
+[node name="AudioTheme" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_nk2h1")
+volume_db = 9.649
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAAQAAsAAAABABIAAAARAAsAAAABABIAAAAVABcAAAAHABgAAAA=")
@@ -895,15 +905,22 @@ tile_map_data = PackedByteArray("AAANAA4AAAABAAcAAAAOAA4AAAABAAcAAAAPAA4AAAABAAc
 tile_set = SubResource("TileSet_xudib")
 
 [node name="Coco" parent="." instance=ExtResource("2_t513f")]
-position = Vector2(271, 199)
+position = Vector2(370, 351)
+SPEED = 90
+
+[node name="Bed" type="Area2D" parent="."]
+position = Vector2(367, 368)
+
+[node name="Sprite2D" type="Sprite2D" parent="Bed"]
+scale = Vector2(2.0625, 1.9375)
+texture = ExtResource("4_gwooj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bed/Sprite2D"]
+position = Vector2(0.484863, 6.2903)
+shape = SubResource("RectangleShape2D_pju8o")
 
 [node name="Furniture" type="Node2D" parent="."]
 y_sort_enabled = true
-
-[node name="Bed" type="Sprite2D" parent="Furniture"]
-position = Vector2(369, 366)
-scale = Vector2(1.93033, 2.2414)
-texture = ExtResource("4_gwooj")
 
 [node name="Table" type="Sprite2D" parent="Furniture"]
 position = Vector2(229, 274)
@@ -918,7 +935,6 @@ texture = ExtResource("6_pju8o")
 [node name="Door" parent="." instance=ExtResource("3_w56jm")]
 position = Vector2(272, 176)
 scale = Vector2(1.605, 1.605)
-next_scene = "res://scenes/main.tscn"
 
 [node name="Actionable2" parent="Door" instance=ExtResource("9_71kge")]
 scale = Vector2(0.623053, 0.623053)
@@ -926,7 +942,7 @@ dialogue_resource = ExtResource("7_xudib")
 dialogue_start = "get_out"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Door/Actionable2"]
-position = Vector2(-1, 26)
+position = Vector2(-1.19209e-07, 13)
 shape = SubResource("CircleShape2D_8te6d")
 
 [node name="Walls" type="TileMapLayer" parent="."]
@@ -935,7 +951,7 @@ tile_map_data = PackedByteArray("AAAYABYAAAACABMAAAAYABcAAAACABMAAAAYABgAAAACABQ
 tile_set = SubResource("TileSet_r88sd")
 
 [node name="Deus" parent="." instance=ExtResource("11_71kge")]
-position = Vector2(348, 335)
+position = Vector2(310, 216)
 
 [node name="Actionable" parent="Deus" instance=ExtResource("9_71kge")]
 dialogue_resource = ExtResource("7_xudib")

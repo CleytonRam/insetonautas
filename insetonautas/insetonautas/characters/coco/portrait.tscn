@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://05jl6jpu63mm"]
 
 [ext_resource type="Script" uid="uid://dohc6vqxgu12f" path="res://helpers/base_portrait.gd" id="1_iprqy"]
-[ext_resource type="Texture2D" uid="uid://d14x0gokkru0m" path="res://characters/coco/body.svg" id="2_omc78"]
+[ext_resource type="Texture2D" uid="uid://dju16ea5ad5xs" path="res://characters/coco/bodypixel.svg" id="2_cmob0"]
 [ext_resource type="Texture2D" uid="uid://bjirydb4cp8ss" path="res://characters/coco/face.svg" id="3_7lu2o"]
 [ext_resource type="Texture2D" uid="uid://c8i24io6tmh2n" path="res://characters/coco/face_shady.svg" id="4_wc4lg"]
 
@@ -102,11 +102,10 @@ animation_player = NodePath("AnimationPlayer")
 [node name="Body" type="Sprite2D" parent="Anchor"]
 position = Vector2(15.812, -251)
 scale = Vector2(3.06376, 3.02393)
-texture = ExtResource("2_omc78")
+texture = ExtResource("2_cmob0")
 
 [node name="Face" type="Sprite2D" parent="Anchor/Body"]
-position = Vector2(21.9299, 2.64556)
-scale = Vector2(1, 0.92)
+position = Vector2(21.6035, 2.64557)
 texture = ExtResource("3_7lu2o")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

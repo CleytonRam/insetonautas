@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://o2wa4vvpajm5"]
+
+[ext_resource type="Script" uid="uid://brcdtvg05drtx" path="res://characters/formiga/formiga.gd" id="1_bvh5y"]
+[ext_resource type="Texture2D" uid="uid://clxp3b6jfnw3w" path="res://assets/insetos/sprites_insetos/bixopau_insetonauta_spritesheet.png" id="2_c37ox"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cwm5s"]
+atlas = ExtResource("2_c37ox")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oc7sj"]
+atlas = ExtResource("2_c37ox")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k3il7"]
+atlas = ExtResource("2_c37ox")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abbq7"]
+atlas = ExtResource("2_c37ox")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hi8qw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cwm5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oc7sj")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k3il7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_abbq7")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1m78n"]
+size = Vector2(7.5, 12)
+
+[node name="BichoPau" type="CharacterBody2D"]
+collision_mask = 0
+script = ExtResource("1_bvh5y")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hi8qw")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.75, 2)
+shape = SubResource("RectangleShape2D_1m78n")

@@ -1,12 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://nr16awv2wk5v"]
+[gd_scene load_steps=5 format=3 uid="uid://nr16awv2wk5v"]
 
 [ext_resource type="Texture2D" uid="uid://da0v8e5tfjwro" path="res://assets/furniture/door-Sheet.png" id="1_0058u"]
 [ext_resource type="Script" uid="uid://b4fjllmyhg7kb" path="res://scenes/World/door.gd" id="1_226p0"]
+[ext_resource type="Resource" uid="uid://by7w13svptt08" path="res://scenes/World/HouseScene.dialogue" id="2_odm4e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4absn"]
 
 [node name="Door" type="Node2D"]
 script = ExtResource("1_226p0")
+next_scene = "res://scenes/main.tscn"
+dialogue_resource = ExtResource("2_odm4e")
+dialogue_start = "get_out"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(1.235, 1.235)

@@ -1,15 +1,15 @@
 ~ talk_to_formiga
 Deus: [[Eae|Ola|Oi]], como vai meu filho.
-Deus: Voce Descobtriu a [tornado rad=25 freq=5] [color=#ff3f3f]FORMIGA[/color][/tornado], o que deseja fazer? 
-- Curiosidade
-	Deus: Existem formigas que escravizam outras formigas.
-- Aprender
-	Deus: Sabia que as formigas carregam 40x o seu peso? Isso faz delas excelentes coletoras.
+Deus: O que voce quer saber meu filho?
+- Como jogar
+	Deus: Aperte as setinhas ⬆️⬇️➡️⬅️ para andar e a barra de Espaço para Interagir com objetos ou personagems
+- O que fazer?
+	Deus: Procure a escola e fale com o Dr. Entomos, ele le fará algumas perguntas. Eu recomendo conversar com os insetos que estao distribuidos pela cidade
 - Leer de novo. => talk_to_formiga
 - Terminar Conversa. => END
-Deus: Eu amo formigas.
+Deus: Eu amo insetos.
 => END
 
 ~ get_out
-Saindo de Casa
+Saiu de Casa
 => END

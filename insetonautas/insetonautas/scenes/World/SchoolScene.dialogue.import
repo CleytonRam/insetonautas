@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://jnvkw7u4pu31"
+path="res://.godot/imported/SchoolScene.dialogue-72e2f852b5e5842f6b34c5b441cdd9f6.tres"
+
+[deps]
+
+source_file="res://scenes/World/SchoolScene.dialogue"
+dest_files=["res://.godot/imported/SchoolScene.dialogue-72e2f852b5e5842f6b34c5b441cdd9f6.tres"]
+
+[params]
+
+defaults=true

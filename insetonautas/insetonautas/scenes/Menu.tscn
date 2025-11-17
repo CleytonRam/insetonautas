@@ -1,13 +1,120 @@
-[gd_scene load_steps=8 format=3 uid="uid://joxadiwnn4ow"]
+[gd_scene load_steps=24 format=3 uid="uid://joxadiwnn4ow"]
 
 [ext_resource type="Script" uid="uid://bwiq8rb5e7xqs" path="res://menu/menu.gd" id="1_jmdev"]
-[ext_resource type="Texture2D" uid="uid://bxly41carepsq" path="res://menu/menuinsetonauta.png" id="2_b6cxs"]
-[ext_resource type="FontFile" uid="uid://cm16166eq574l" path="res://menu/Spacerunner-Green.otf" id="3_aaywf"]
-[ext_resource type="FontFile" uid="uid://dstlo35hq7q7u" path="res://menu/BoldPixels.otf" id="4_1abgu"]
-[ext_resource type="Texture2D" uid="uid://dsxec5ankq532" path="res://menu/UI2.png" id="5_yt8fu"]
+[ext_resource type="Texture2D" uid="uid://bxly41carepsq" path="res://helpers/menu/menuinsetonauta.png" id="2_b6cxs"]
+[ext_resource type="FontFile" uid="uid://cm16166eq574l" path="res://helpers/menu/Spacerunner-Green.otf" id="3_aaywf"]
+[ext_resource type="Texture2D" uid="uid://bsxsx52dc4bs4" path="res://helpers/menu/menuinsetonauta-Sheet.png" id="3_b6cxs"]
+[ext_resource type="FontFile" uid="uid://dstlo35hq7q7u" path="res://helpers/menu/BoldPixels.otf" id="4_1abgu"]
+[ext_resource type="Texture2D" uid="uid://dsxec5ankq532" path="res://helpers/menu/UI2.png" id="5_yt8fu"]
 
 [sub_resource type="AnimatedTexture" id="AnimatedTexture_0bmmx"]
 frame_0/texture = ExtResource("2_b6cxs")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b6cxs"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(0, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aaywf"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(0, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1abgu"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(640, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yt8fu"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(640, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4umqm"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(1280, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pp5m5"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(1920, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_el213"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(1920, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thu7x"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(1920, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2af52"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(2560, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ycwl"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(2560, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtd1e"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(3200, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6c8sk"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(3200, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5p0sf"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(3840, 0, 640, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7t7qg"]
+atlas = ExtResource("3_b6cxs")
+region = Rect2(3840, 0, 640, 320)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2af52"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b6cxs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aaywf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1abgu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yt8fu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4umqm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pp5m5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_el213")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thu7x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2af52")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ycwl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtd1e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6c8sk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5p0sf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7t7qg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qoxbi"]
 texture = ExtResource("5_yt8fu")
@@ -30,6 +137,13 @@ offset_right = 1385.0
 offset_bottom = 721.0
 texture = SubResource("AnimatedTexture_0bmmx")
 
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(691.5, 360.5)
+scale = Vector2(2.15781, 2.23438)
+sprite_frames = SubResource("SpriteFrames_2af52")
+autoplay = "default"
+frame_progress = 0.385787
+
 [node name="Title" type="Label" parent="."]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 0
@@ -45,34 +159,29 @@ text = "INSETONAUTAS"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 507.0
-offset_top = 108.0
-offset_right = 623.0
-offset_bottom = 232.0
-scale = Vector2(2.5, 2.5)
-theme_override_constants/separation = 7
+offset_left = 298.0
+offset_top = 186.0
+offset_right = 528.0
+offset_bottom = 213.0
+scale = Vector2(3, 3)
+theme_override_constants/separation = 15
 alignment = 1
 
 [node name="ButtonPlay" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_1abgu")
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 16
 theme_override_styles/normal = SubResource("StyleBoxTexture_qoxbi")
 text = "JOGAR"
 
-[node name="ButtonSettings" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("4_1abgu")
-theme_override_font_sizes/font_size = 18
-theme_override_styles/normal = SubResource("StyleBoxTexture_qoxbi")
-text = "OPÇÕES"
-
 [node name="ButtonExit" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_1abgu")
-theme_override_font_sizes/font_size = 18
+theme_override_font_sizes/font_size = 16
 theme_override_styles/normal = SubResource("StyleBoxTexture_qoxbi")
 text = "SAIR"
 

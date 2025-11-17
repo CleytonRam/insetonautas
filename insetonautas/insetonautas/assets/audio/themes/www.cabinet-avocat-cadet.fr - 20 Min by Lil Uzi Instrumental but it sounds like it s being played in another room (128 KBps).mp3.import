@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://xbc2kmwsql8l"
+path="res://.godot/imported/www.cabinet-avocat-cadet.fr - 20 Min by Lil Uzi Instrumental but it sounds like it s being played in another room (128 KBps).mp3-351e5d789206b70364a03c425509313b.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/themes/www.cabinet-avocat-cadet.fr - 20 Min by Lil Uzi Instrumental but it sounds like it s being played in another room (128 KBps).mp3"
+dest_files=["res://.godot/imported/www.cabinet-avocat-cadet.fr - 20 Min by Lil Uzi Instrumental but it sounds like it s being played in another room (128 KBps).mp3-351e5d789206b70364a03c425509313b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

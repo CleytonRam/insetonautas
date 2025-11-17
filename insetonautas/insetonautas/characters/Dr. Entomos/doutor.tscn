@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://c20aid6eaansm"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iv30f"]
+load_path = "res://.godot/imported/doutor_insetonauta.png-36a0a4a674ff441cd35d0ea059a041ce.ctex"
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u2fii"]
+radius = 5.0
+height = 14.0
+
+[node name="doutor" type="StaticBody2D"]
+collision_mask = 0
+
+[node name="doutor" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -8)
+texture = SubResource("CompressedTexture2D_iv30f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_u2fii")
